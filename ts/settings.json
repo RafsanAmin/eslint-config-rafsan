@@ -7,6 +7,10 @@
     "editor.formatOnSave": false,
     "editor.defaultFormatter": null
   },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
