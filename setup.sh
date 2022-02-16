@@ -1,15 +1,23 @@
 git clone https://github.com/RafsanAmin/eslint-config-rafsan.git s
-if($args[0] -eq 'ts'){
-  copy './s/ts/*' . -r
-  del -r -Force './s/*'
-  del s
-  ./run
-  del 'run.ps1'
-}
-else{
-  copy './s/js/*' . -r
-  del -r -Force './s/*'
-  del s
-  ./run
-  del 'run.ps1'
-}
+
+args="none"
+
+if [ ! -z "$1" ]
+then
+  args=$1
+fi
+
+if [ $args == 'ts' ]
+then
+  cp './s/linux_&_mac/ts/' . -RT
+  rm -rf './s'
+  rm s
+  ./run.sh
+  rm 'run.sh'
+else
+  cp './s/linux_&_mac/js/' . -RT
+  rm -rf './s'
+  rm s
+  ./run.sh
+  rm 'run.sh'
+fi
