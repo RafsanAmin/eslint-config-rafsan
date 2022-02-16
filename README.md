@@ -7,6 +7,7 @@
 - If you use **Linux or Mac** then download <a href="https://downgit.github.io/#/home?url=https://github.com/RafsanAmin/eslint-config-rafsan/blob/master/setup.sh">**setup.sh**</a>
 - If you use **Windows** then download <a href="https://downgit.github.io/#/home?url=https://github.com/RafsanAmin/eslint-config-rafsan/blob/master/setup.ps1">**setup.ps1**</a>
 - extract that file from zip
+- open powershell and run this `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser`
 - copy the downloaded file to project directory.
 - open terminal in that directory.
 - Run
