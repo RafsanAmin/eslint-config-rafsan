@@ -4,6 +4,7 @@ mkdir .vscode
 del ./.vscode/settings.json 
 mv settings.json ./.vscode
 del .eslintrc.json
+del .eslintrc.js
 mv eslintrc.json .eslintrc.json
 npm uninstall babel-eslint
 npm install @babel/core -D
